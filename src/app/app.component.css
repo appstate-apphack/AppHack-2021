@@ -1,0 +1,9 @@
+.top {
+	background-image: url('../assets/mountains.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	overflow: none;
+	height: 100vh;
+	width: 100vw;
+}

@@ -1,0 +1,27 @@
+.clubs {
+	background: #ffc306;
+	margin-top: 100px;
+	padding: 40px;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+	border-radius: 20px;
+	display: block;
+	align-content: center;
+}
+
+.club-name {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 400;
+}
