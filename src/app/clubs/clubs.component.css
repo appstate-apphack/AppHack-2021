@@ -11,6 +11,15 @@
 	display: block;
 }
 
+.club-pic img {
+	height: 200px;
+	margin: auto;
+}
+
+.club-pic {
+	margin-top: 40px;
+}
+
 .club-parent {
 	display: flex;
 	text-align: center;
@@ -20,8 +29,8 @@
 	background: rgba(255, 255, 255, 0.5);
 	border-radius: 20px;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	flex-direction: column;
 	width: 45%;
 	margin: auto;
 	height: 500px;

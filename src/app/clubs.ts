@@ -8,7 +8,7 @@ export const PARTICIPATING_CLUBS: Club[] = [
 	{
 		clubName: "Women in Computer Science",
 		clubDescription: "The Women in Computer Science Club, or WICS, is an organization dedicated to supporting and encouraging women in technical majors, as well as providing opportunities outside the classroom and creating a strong, welcoming community.",
-		logoPath: "../assets/ah.ico",
+		logoPath: "../assets/wicslogo.png",
 	},
 	{
 		clubName: "Appalachian Society for Computing, Informatics, and Innovation",
