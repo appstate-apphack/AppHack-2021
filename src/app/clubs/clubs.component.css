@@ -11,6 +11,24 @@
 	display: block;
 }
 
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+	.clubs {
+		height: auto;
+	}
+
+	.club-parent {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.club-box {
+		width: 90%;
+		margin-right: 10%;
+		margin-left: 10%;
+		height: 1000px;
+	}
+}
+
 .club-pic img {
 	height: 200px;
 	margin: auto;
