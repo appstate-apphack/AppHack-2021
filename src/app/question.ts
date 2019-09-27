@@ -29,7 +29,7 @@ export const FAQ: Question[] = [
 		answer: "Teams can be organized before the event and during the event itself. Team size should be no more than 4 members."
 	},
 	{
-		question: "I forgot to register, can I still come?",
+		question: "I forgot to pre-register, can I still come?",
 		answer: "Yes! You can register at the event but we won't be able to guarantee food for you!"
 	},
 ]
