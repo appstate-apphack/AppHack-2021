@@ -1,7 +1,9 @@
 <div class="faq">
 		<h1>Frequently Asked Questions</h1>
-		<div class="faq-box" *ngFor="let question of questions">
-		<span class="faq-question"><p>{{question.question}}<p></span>
-		<span class="faq-answer"><p>{{question.answer}}</p></span>
+		<div class="faq-parent">
+			<div class="faq-box" *ngFor="let question of questions">
+				<span class="faq-question"><p>{{question.question}}<p></span>
+				<span class="faq-answer"><p>{{question.answer}}</p></span>
+		</div>
 	</div>
 </div>

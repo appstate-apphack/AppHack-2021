@@ -11,6 +11,11 @@
 	display: block;
 }
 
+.faq-box {
+	width: 50%;
+	margin: auto;
+}
+
 h1 {
 	font-size: 40px;
 }

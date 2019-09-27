@@ -1,7 +1,9 @@
 <div class="clubs">
 	<h1>Participating Clubs</h1>
-	<div class="club-box" *ngFor="let club of clubs">
-		<span class="club-name"><p>{{club.clubName}}</p></span>
-		<span class="club-description"><p>{{club.clubDescription}}<p></span>
+	<div class="club-parent">
+		<div class="club-box" *ngFor="let club of clubs">
+			<span class="club-name"><p>{{club.clubName}}</p></span>
+			<span class="club-description"><p>{{club.clubDescription}}<p></span>
+		</div>
 	</div>
 </div>

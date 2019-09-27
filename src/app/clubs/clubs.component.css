@@ -9,11 +9,34 @@
     font-family: 'Montserrat', sans-serif;
 	border-radius: 20px;
 	display: block;
-	align-content: center;
+}
+
+.club-parent {
+	display: flex;
+	text-align: center;
+}
+
+.club-box {
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 45%;
+	margin: auto;
+	height: 500px;
 }
 
 .club-name {
 	font-weight: bold;
+	margin: auto;
+	width: 60%;
+	font-size: 20px;
+}
+
+.club-description {
+	width: 80%;
+	margin: auto;
 }
 
 h1 {
