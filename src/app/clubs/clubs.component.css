@@ -12,20 +12,13 @@
 }
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
-	.clubs {
-		height: auto;
-	}
-
 	.club-parent {
 		flex-direction: column;
-		height: auto;
+		width: 100%;
 	}
 
 	.club-box {
-		width: 90%;
-		margin-right: 10%;
-		margin-left: 10%;
-		height: 1000px;
+		width: 80%;
 	}
 }
 

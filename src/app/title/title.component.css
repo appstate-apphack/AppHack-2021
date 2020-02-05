@@ -21,7 +21,8 @@
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.title-wrapper {
-		margin: 0 10% 0 1%;
+		margin-left: 20px;
+		overflow: hidden;
 	}
 
 	.title {

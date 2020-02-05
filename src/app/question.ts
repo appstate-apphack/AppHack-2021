@@ -6,7 +6,7 @@ export class Question {
 export const FAQ: Question[] = [
 	{
 		question: "What is a hackathon?",
-		answer: "A hackathon is a weekend of fun and coding. You will learn how to become a better programmer, meet new faces, and get free food! You will also have the opportunity to win prices and network with our sponsors."
+		answer: "A hackathon is a weekend of fun and coding. You will learn how to become a better programmer, meet new faces, and get free food! You will also have the opportunity to win prizes and network with our sponsors."
 	},
 	{
 		question: "Am I allowed to participate?",
@@ -18,7 +18,7 @@ export const FAQ: Question[] = [
 	},
 	{
 		question: "What about sleep?",
-		answer: "You can totally sleep! Bring your own pillow and sleeping bag, or blankets. There will be a designated sleeping space."
+		answer: "You can totally sleep! Bring your own pillow and sleeping bag, blankets, or air mattress. There will be a designated sleeping space."
 	},
 	{
 		question: "Will there be food?",
