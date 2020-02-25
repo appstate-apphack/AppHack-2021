@@ -1,19 +1,62 @@
-.faq {
-	background: #ffc306;
-	margin-top: 100px;
-	padding: 40px;
-	width: 80%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-    font-family: 'Montserrat', sans-serif;
-	border-radius: 20px;
-	display: block;
+
+@media only screen and (min-width : 320px) {
+	.faq {
+		background: #ffc306;
+		margin-top: 100px;
+		padding: 40px;
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	    font-family: 'Montserrat', sans-serif;
+		border-radius: 20px;
+		display: block;
+	}
+
+	.faq-box {
+		width: 80%;
+		padding-left: 40px;
+	}
 }
 
-.faq-box {
-	width: 50%;
-	margin: auto;
+@media only screen and (min-width : 768px) and (max-width: 1023px) {
+	.faq {
+		background: #ffc306;
+		margin-top: 100px;
+		padding: 40px;
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	    font-family: 'Montserrat', sans-serif;
+		border-radius: 20px;
+		display: block;
+	}
+
+	.faq-box {
+		width: 70%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width : 1024px) {
+	.faq {
+		background: #ffc306;
+		margin-top: 100px;
+		padding: 40px;
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	    font-family: 'Montserrat', sans-serif;
+		border-radius: 20px;
+		display: block;
+	}
+
+	.faq-box {
+		width: 50%;
+		margin: auto;
+	}
 }
 
 h1 {
@@ -22,10 +65,4 @@ h1 {
 
 .faq-question {
 	font-weight: bold;
-}
-
-@media only screen and (max-width: 640px) and (min-width: 480px) {
-	.faq-box {
-		width: 80%;
-	}
 }
