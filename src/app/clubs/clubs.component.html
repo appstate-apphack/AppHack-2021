@@ -2,9 +2,13 @@
 	<h1>Participating Clubs</h1>
 	<div class="club-parent">
 		<div class="club-box" *ngFor="let club of clubs">
-			<span class="club-pic"><img src={{club.logoPath}}></span>
-			<span class="club-name"><p>{{club.clubName}}</p></span>
-			<span class="club-description"><p>{{club.clubDescription}}<p></span>
+			<a href={{club.link}} target="_blank">
+				<div class={club-content}>
+					<span class="club-pic"><img src={{club.logoPath}}></span>
+					<span class="club-name"><p>{{club.clubName}}</p></span>
+					<span class="club-description"><p>{{club.clubDescription}}</p></span>
+				</div>
+			</a>
 		</div>
 	</div>
 </div>

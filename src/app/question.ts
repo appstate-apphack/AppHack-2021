@@ -10,7 +10,7 @@ export const FAQ: Question[] = [
 	},
 	{
 		question: "Am I allowed to participate?",
-		answer: "If you are a high schooler over 18, undergraduate, or graduate student. Any majors are welcomed!"
+		answer: "All undergraduate and graduate students are welcomed!"
 	},
 	{
 		question: "Do I need to pay anything to participate?",
@@ -18,11 +18,11 @@ export const FAQ: Question[] = [
 	},
 	{
 		question: "What about sleep?",
-		answer: "You can totally sleep! Bring your own pillow and sleeping bag, blankets, or air mattress. There will be a designated sleeping space."
+		answer: "You can bring your own pillow and sleeping bag, blankets, or air mattress. There will be a designated sleeping space."
 	},
 	{
 		question: "Will there be food?",
-		answer: "Yes, there will be free food provided for you. If you have dietary restrictions, please pre-register so that we can accommondate for you."
+		answer: "Yes, there will be free food. If you have dietary restrictions, please register so that we can accommondate for you."
 	},
 	{
 		question: "How do I find a teammate?",

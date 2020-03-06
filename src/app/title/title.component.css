@@ -1,3 +1,12 @@
+.top {
+	background-image: url(../../assets/mountains.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	overflow: none;
+	height: 100vh;
+	width: 100vw;
+}
 
 @media only screen and (min-width : 320px) {
 	.title-wrapper {
@@ -22,17 +31,6 @@
 
 	.info {
 		margin-left: 10%;
-	}
-
-	button {
-		background-color: #ffc306;
-		border-radius: 20px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 15px;
-	    font-family: 'Montserrat', sans-serif;
-	    margin-left: 10%;
 	}
 }
 
@@ -60,27 +58,19 @@
 	.info {
 		margin-left: 10%;
 	}
-
-	button {
-		background-color: #ffc306;
-		border-radius: 20px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 15px;
-	    font-family: 'Montserrat', sans-serif;
-	    margin-left: 10%;
-	}
 }
 
 @media only screen and (min-width : 1024px) {
 	.title-wrapper {
 	    font-family: 'Montserrat', sans-serif;
-	    margin-bottom: 150px;
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	}
+
+	.wrapper {
+		margin-bottom: 30%;
 	    margin-left: 200px;
-	    width: 80%;
-	    float: left;
-	    display: block;
 	}
 
 	.title {
@@ -99,16 +89,7 @@
 		margin-left: 0;
 	}
 
-	button {
-		background-color: #ffc306;
-		border-radius: 20px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 15px;
-	    font-family: 'Montserrat', sans-serif;
-	    margin-left: 0;
-	}
+	
 }
 
 .hack {
@@ -124,10 +105,20 @@
 	width: 500px;
 }
 
-
+button {
+		background-color: #ffcf78;
+		border-radius: 20px;
+		border-color: #ffcf78;
+	    border-width: 5px;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 15px;
+	    font-family: 'Montserrat', sans-serif;
+	}
 
 button:hover {
-  background: #ffcf78;
+  background: transparent;
 }
 
 a {

@@ -18,3 +18,8 @@ h1 {
 h2 {
 	font-weight: lighter;
 }
+
+.sponsor-logo {
+	max-width: 300px;
+	margin: 5%;
+}
