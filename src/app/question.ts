@@ -26,7 +26,7 @@ export const FAQ: Question[] = [
 	},
 	{
 		question: "How do I find a teammate?",
-		answer: "Teams can be organized before the event and during the event itself. Team size should be no more than 4 members."
+		answer: "Teams can be organized before the event and during the event itself. Team size should be no more than 4 members. Closer to the event, we will create a Discord group chat. You can find your teammates that way."
 	},
 	{
 		question: "I forgot to pre-register, can I still come?",

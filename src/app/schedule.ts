@@ -34,7 +34,7 @@ export const SCHEDULE1: Schedule[] = [
 	},
 	{
 		time: "2:00 PM - 6:00 PM",
-		description: "Workshops [TBD]",
+		description: "Workshops",
 	},
 	{
 		time: "6:00 PM",
