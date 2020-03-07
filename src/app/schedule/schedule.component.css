@@ -1,0 +1,124 @@
+@media only screen and (min-width : 320px) {
+	.schedule {
+		background: #ffc306;
+		padding: 40px;
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	    font-family: 'Montserrat', sans-serif;
+		border-radius: 20px;
+		display: block;
+	}
+
+	.schedule-parent {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.schedule-dates {
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		max-width: 100%;
+		border-radius: 20px;
+		padding: 10px;
+		text-align: left;
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	.time {
+		padding-right: 5%;
+		font-weight: bold;
+		width: 40%;
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1023px) {
+	.schedule {
+		background: #ffc306;
+		padding: 40px;
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	    font-family: 'Montserrat', sans-serif;
+		border-radius: 20px;
+		display: block;
+	}
+
+	.schedule-parent {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.schedule-dates {
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		max-width: 100%;
+		border-radius: 20px;
+		padding: 10px;
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	.time {
+		padding-right: 5%;
+		font-weight: bold;
+		width: 20%;
+	}
+}
+
+@media only screen and (min-width : 1024px) {
+	.schedule {
+		background: #ffc306;
+		padding: 40px;
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	    font-family: 'Montserrat', sans-serif;
+		border-radius: 20px;
+		display: block;
+	}
+
+	.schedule-parent {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.schedule-dates {
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		max-width: 100%;
+		border-radius: 20px;
+		padding: 10px;
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	.time {
+		padding-right: 5%;
+		font-weight: bold;
+		width: 20%;
+		text-align: center;
+	}
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.date-title {
+	text-align: left;
+	padding-left: 2%;
+}
+
+h3 {
+	font-size: 30px;
+	/*color: #ffffff;*/
+}

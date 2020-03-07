@@ -2,7 +2,6 @@
 @media only screen and (min-width : 320px) {
 	.faq {
 		background: #ffc306;
-		margin-top: 100px;
 		padding: 40px;
 		width: 80%;
 		text-align: center;
@@ -15,14 +14,17 @@
 
 	.faq-box {
 		width: 80%;
-		padding-left: 40px;
+		margin: auto;
+		margin-bottom: 2%;
+		border-radius: 20px;
+		padding: 2%;
+		background: rgba(255, 255, 255, 0.8);
 	}
 }
 
 @media only screen and (min-width : 768px) and (max-width: 1023px) {
 	.faq {
 		background: #ffc306;
-		margin-top: 100px;
 		padding: 40px;
 		width: 80%;
 		text-align: center;
@@ -34,15 +36,18 @@
 	}
 
 	.faq-box {
-		width: 70%;
+		width: 80%;
 		margin: auto;
+		margin-bottom: 2%;
+		border-radius: 20px;
+		padding: 2%;
+		background: rgba(255, 255, 255, 0.8);
 	}
 }
 
 @media only screen and (min-width : 1024px) {
 	.faq {
 		background: #ffc306;
-		margin-top: 100px;
 		padding: 40px;
 		width: 80%;
 		text-align: center;
@@ -54,8 +59,11 @@
 	}
 
 	.faq-box {
-		width: 50%;
-		margin: auto;
+		width: 80%;
+		margin-bottom: 2%;
+		border-radius: 20px;
+		padding: 2%;
+		background: rgba(255, 255, 255, 0.8);
 	}
 }
 

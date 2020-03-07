@@ -1,6 +1,6 @@
 .sponsors {
 	background: #ffc306;
-	margin-top: 100px;
+	margin-top: 5%;
 	padding: 40px;
 	width: 80%;
 	text-align: center;
@@ -17,4 +17,9 @@ h1 {
 
 h2 {
 	font-weight: lighter;
+}
+
+.sponsor-logo {
+	max-width: 300px;
+	margin: 5%;
 }
