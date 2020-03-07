@@ -9,6 +9,10 @@ export const FAQ: Question[] = [
 		answer: "A hackathon is a weekend of fun and coding. You will learn how to become a better programmer, meet new faces, and get free food! You will also have the opportunity to win prizes and network with our sponsors."
 	},
 	{
+		question: "What if I don't know how to code?",
+		answer: "AppHack is beginner-friendly. We encourage you to come because it is a great place to start learning how to code. If you don't want to create a project, we have workshops and other fun activities for you throughout the night."
+	},
+	{
 		question: "Am I allowed to participate?",
 		answer: "All undergraduate and graduate students are welcomed!"
 	},
@@ -31,5 +35,9 @@ export const FAQ: Question[] = [
 	{
 		question: "I forgot to pre-register, can I still come?",
 		answer: "Yes! You can register at the event but we won't be able to guarantee food for you!"
+	},
+	{
+		question: "What if I don't finish my project?",
+		answer: "We encourage you to submit anyways because it does not disqualify you from prizes. It is also a significant accomplishment to work on a project for 24 hours! We love to hear about what your idea was."
 	},
 ]
