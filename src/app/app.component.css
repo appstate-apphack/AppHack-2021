@@ -1,4 +1,4 @@
-.top {
+/*.top {
 	background-image: url(../assets/mountains.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -6,21 +6,7 @@
 	overflow: none;
 	height: 100vh;
 	width: 100vw;
-}
-
-.scroll-to-top {
-    width: 40px;
-    position: sticky;
-    top: 50px;
-    float: right;
-    margin-right: 20px;
-}
-
-@media only screen and (max-width: 640px) and (min-width: 480px) {
-    .scroll-to-top {
-        display: none;
-    }
-}
+}*/
 
 a {
     text-decoration: none;
