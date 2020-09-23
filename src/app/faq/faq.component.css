@@ -1,7 +1,7 @@
 
 @media only screen and (min-width : 320px) {
 	.faq {
-		background: #ffc306;
+		background: #00bbff;
 		padding: 40px;
 		width: 80%;
 		text-align: center;
@@ -24,7 +24,7 @@
 
 @media only screen and (min-width : 768px) and (max-width: 1023px) {
 	.faq {
-		background: #ffc306;
+		background: #00bbff;
 		padding: 40px;
 		width: 80%;
 		text-align: center;
@@ -47,7 +47,7 @@
 
 @media only screen and (min-width : 1024px) {
 	.faq {
-		background: #ffc306;
+		background: #00bbff;
 		padding: 40px;
 		width: 80%;
 		text-align: center;

@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./title.component.css']
 })
 export class TitleComponent implements OnInit {
+	loadComponent: boolean;
 
-  constructor() { }
+  constructor() {
+  	this.loadComponent = false;
+  }
 
   ngOnInit() {
   }
