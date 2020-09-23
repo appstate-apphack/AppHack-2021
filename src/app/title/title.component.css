@@ -6,10 +6,10 @@
 	    flex-direction: column;
 	}
 
-	button {
-		background-color: #ffcf78;
+	.register-button {
+		background-color: #00bbff;
 		border-radius: 20px;
-		border-color: #ffcf78;
+		border-color: #00bbff;
 	    border-width: 5px;
 		padding: 10px;
 		padding-left: 20px;
@@ -59,10 +59,10 @@
 		margin-bottom: 30%;
 	}
 
-	button {
-		background-color: #ffcf78;
+	.register-button {
+		background-color: #00bbff;
 		border-radius: 20px;
-		border-color: #ffcf78;
+		border-color: #00bbff;
 	    border-width: 5px;
 		padding: 10px;
 		padding-left: 20px;
@@ -120,10 +120,10 @@
 		margin-left: 0;
 	}
 
-	button {
-		background-color: #ffcf78;
+	.register-button {
+		background-color: #00bbff;
 		border-radius: 20px;
-		border-color: #ffcf78;
+		border-color: #00bbff;
 	    border-width: 5px;
 		padding: 10px;
 		padding-left: 20px;
@@ -136,7 +136,7 @@
 }
 
 .hack {
-	color: #ffc306;
+	color: #00bbff;
 }
 
 .logo {
@@ -149,9 +149,9 @@
 }
 
 
-
 button:hover {
-  background: transparent;
+  background: #9be4ff;
+  border-color: #9be4ff;
 }
 
 a {

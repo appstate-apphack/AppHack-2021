@@ -18,10 +18,10 @@ export const PARTICIPATING_CLUBS: Club[] = [
 		logoPath: "apphack/assets/asciilogo.jpg",
 		link: "https://appstate.campuslabs.com/engage/organization/appalachian-society-for-computing-informatics-and-",
 	},
-	{
-		clubName: "Association of Information Tech Professionals",
-		clubDescription: "The Association of Information Technology Professionals, or AITP, is an organization open to all students with an interest in information technology, providing professional networking opportunities to all participants.",
-		logoPath: "apphack/assets/aitp.png",
-		link: "https://aitp.appstate.edu/",
-	},
+	// {
+	// 	clubName: "Association of Information Tech Professionals",
+	// 	clubDescription: "The Association of Information Technology Professionals, or AITP, is an organization open to all students with an interest in information technology, providing professional networking opportunities to all participants.",
+	// 	logoPath: "apphack/assets/aitp.png",
+	// 	link: "https://aitp.appstate.edu/",
+	// },
 ]
