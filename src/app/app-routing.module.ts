@@ -6,9 +6,9 @@ import { FaqComponent } from './faq/faq.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: TitleComponent },
-  //{ path: 'schedule', component: ScheduleComponent },
+  { path: '', component: TitleComponent, pathMatch: 'full' },
+  // { path: 'home', component: TitleComponent },
+  { path: 'schedule', component: ScheduleComponent },
   { path: 'faq', component: FaqComponent },
 ];
 
