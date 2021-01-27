@@ -2,7 +2,7 @@
 	.schedule {
 		background: #00bbff;
 		padding: 40px;
-		width: 80%;
+		max-width: 70%;
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;

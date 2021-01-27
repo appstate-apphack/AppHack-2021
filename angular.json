@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "apphack"
+    }
+  },
+  "defaultProject": "apphack",
+  "cli": {
+    "analytics": "3200d52d-4780-4943-a04c-ac9356c5ae33"
+  }
 }
