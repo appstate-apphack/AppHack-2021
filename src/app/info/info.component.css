@@ -1,18 +1,16 @@
 .info-tile {
 	background: #00bbff;
 	padding: 40px;
-	width: 80%;
+	max-width: 70%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-    font-family: 'Montserrat', sans-serif;
 	border-radius: 20px;
 	display: block;
 }
 
 .info-parent {
 	width: 80%;
-	margin: auto;
 }
 
 h1 {

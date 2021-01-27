@@ -1,153 +1,149 @@
-@media only screen and (min-width : 320px) {
-	.title-wrapper {
-	    font-family: 'Montserrat', sans-serif;
-	    display: flex;
-	    justify-content: center;
-	    flex-direction: column;
-	}
+@media only screen and (min-width:320px) {
+  .title-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-	.register-button {
-		background-color: #00bbff;
-		border-radius: 20px;
-		border-color: #00bbff;
-	    border-width: 5px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 15px;
-	    font-family: 'Montserrat', sans-serif;
-		margin-left: 10%;
-	}
+  .register-button {
+    background-color: #00bbff;
+    border-radius: 20px;
+    border-color: #00bbff;
+    border-width: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: 10%;
+  }
 
-	.wrapper {
-		margin-bottom: 80%;
-	}
+  .wrapper {
+    margin-bottom: 80%;
+  }
 
-	.title {
-		font-size: 20px;
-		font-weight: lighter;
-		margin-left: 10%;
-	}
+  .title {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10%;
+  }
 
-	.apphack-title {
-		font-size: 60px;
-		font-weight: bolder;
-		margin-left: 10%;
-		margin-bottom: 0;
-	}
+  .apphack-title {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
 
-	.info {
-		margin-left: 10%;
-	}
+  .info {
+    margin-left: 10%;
+  }
+
 }
 
-@media only screen and (min-width : 592px) and (max-width: 767px) {
-	.wrapper {
-		margin-bottom: 50%;
-	}
+@media only screen and (min-width:592px) and (max-width:767px) {
+  .wrapper {
+    margin-bottom: 50%;
+  }
+
 }
 
-@media only screen and (min-width : 768px) and (max-width: 1023px) {
-	.title-wrapper {
-	    font-family: 'Montserrat', sans-serif;
-	    display: flex;
-	    justify-content: center;
-	    flex-direction: column;
-	}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  .title-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-	.wrapper {
-		margin-bottom: 30%;
-	}
+  .wrapper {
+    margin-bottom: 30%;
+  }
 
-	.register-button {
-		background-color: #00bbff;
-		border-radius: 20px;
-		border-color: #00bbff;
-	    border-width: 5px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 15px;
-	    font-family: 'Montserrat', sans-serif;
-		margin-left: 10%;
-	}
+  .register-button {
+    background-color: #00bbff;
+    border-radius: 20px;
+    border-color: #00bbff;
+    border-width: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: 10%;
+  }
 
-	.title {
-		font-size: 40px;
-		font-weight: lighter;
-		margin-left: 10%;
-		margin-top: 0;
-	}
+  .title {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 10%;
+    margin-top: 0;
+  }
 
-	.apphack-title {
-		font-size: 80px;
-		font-weight: bolder;
-		margin-left: 10%;
-		margin-bottom: 0;
-	}
+  .apphack-title {
+    font-size: 80px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
 
-	.info {
-		margin-left: 10%;
-	}
+  .info {
+    margin-left: 10%;
+  }
+
 }
 
-@media only screen and (min-width : 1024px) {
-	.title-wrapper {
-	    font-family: 'Montserrat', sans-serif;
-	    display: flex;
-	    justify-content: center;
-	    flex-direction: column;
-	}
+@media only screen and (min-width:1024px) {
+  .title-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-	.wrapper {
-		margin-bottom: 30%;
-	    margin-left: 200px;
-	}
+  .wrapper {
+    margin-bottom: 30%;
+    margin-left: 200px;
+  }
 
-	.title {
-		font-size: 40px;
-		font-weight: lighter;
-		margin: 0;
-	}
+  .title {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
+  }
 
-	.apphack-title {
-		font-size: 80px;
-		font-weight: bolder;
-		margin: 0;
-	}
+  .apphack-title {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0;
+  }
 
-	.info {
-		margin-left: 0;
-	}
+  .info {
+    margin-left: 0;
+  }
 
-	.register-button {
-		background-color: #00bbff;
-		border-radius: 20px;
-		border-color: #00bbff;
-	    border-width: 5px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 15px;
-	    font-family: 'Montserrat', sans-serif;
-	    margin-left: 0%;
-	}
-	
+  .register-button {
+    background-color: #00bbff;
+    border-radius: 20px;
+    border-color: #00bbff;
+    border-width: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: 0%;
+  }
+
 }
 
 .hack {
-	color: #00bbff;
+  color: #00bbff;
 }
 
 .logo {
-	float: right;
-	margin-right: 300px; 
+  float: right;
+  margin-right: 300px;
 }
 
 .appcslogo {
-	width: 500px;
+  width: 500px;
 }
-
 
 button:hover {
   background: #9be4ff;
@@ -155,20 +151,20 @@ button:hover {
 }
 
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 h4 {
-	font-weight: lighter;
+  font-weight: lighter;
 }
 
 .title-everything-wrapper {
-	background-image: url(../../assets/mountains.png);
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: 100%;
-	overflow: none;
-	height: 90vh;
-	width: 100vw;
+  background-image: url(../../assets/mountains.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  overflow: none;
+  height: 90vh;
+  width: 100vw;
 }
