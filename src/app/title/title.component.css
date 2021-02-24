@@ -33,6 +33,7 @@
     font-weight: bolder;
     margin-left: 10%;
     margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .info {
@@ -158,6 +159,10 @@ a {
 
 h4 {
   font-weight: lighter;
+}
+
+.apphack-title {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title-everything-wrapper {

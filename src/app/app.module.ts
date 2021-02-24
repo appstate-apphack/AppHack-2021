@@ -11,6 +11,7 @@ import { TitleComponent } from './title/title.component';
 import { FaqComponent } from './faq/faq.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ScheduleComponent } from './schedule/schedule.component';
     TitleComponent,
     FaqComponent,
     ClubsComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

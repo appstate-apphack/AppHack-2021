@@ -1,19 +1,6 @@
-
 @media only screen and (min-width : 320px) {
-	.club-pic img {
-		margin: auto;
-		height: auto;
-		max-width: 50%;
-	}
-
-	.club-pic {
-		margin-top: 40px;
-	}
-
 	.club-parent {
-		display: flex;
 		flex-direction: column;
-		text-align: center;
 	}
 
 	.club-box {
@@ -27,11 +14,6 @@
 		margin-top: 20px;
 		padding-top: 1%;
 	}
-
-	.club-box:hover {
-		background: rgba(255, 255, 255, 0.8);;
-	}
-
 	.club-name {
 		font-weight: bold;
 		margin: auto;
@@ -46,20 +28,8 @@
 }
 
 @media only screen and (min-width : 768px) and (max-width: 1023px) {
-	.club-pic img {
-		margin: auto;
-		height: auto;
-		max-width: 50%;
-	}
-
-	.club-pic {
-		margin-top: 40px;
-	}
-
 	.club-parent {
-		display: flex;
 		flex-direction: column;
-		text-align: center;
 	}
 
 	.club-box {
@@ -73,10 +43,6 @@
 		margin-top: 20px;
 		padding-top: 1%;
 
-	}
-
-	.club-box:hover {
-		background: #e2e2e2;
 	}
 
 	.club-name {
@@ -93,36 +59,20 @@
 }
 
 @media only screen and (min-width : 1024px) {
-	.club-pic img {
-		margin: auto;
-		height: auto;
-		max-width: 50%;
-	}
-
-	.club-pic {
-		margin-top: 40px;
-	}
-
 	.club-parent {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
+		flex-direction: row;
 	}
-
 	.club-box {
 		background: rgba(255, 255, 255, 0.5);
 		border-radius: 20px;
 		display: flex;
 		flex-direction: column;
-		width: 80%;
+		width: 40%;
 		margin: auto;
 		margin-top: 20px;
 		padding-top: 1%;
 	}
 
-	.club-box:hover {
-		background: #e2e2e2;
-	}
 
 	.club-content {
 		padding-top: 50px;
@@ -151,6 +101,26 @@
 	margin-right: auto;
 	border-radius: 20px;
 	display: block;
+}
+
+/*.club-box:hover {
+	background: #e2e2e2;
+}
+*/
+
+.club-pic img {
+	margin: auto;
+	height: auto;
+	max-width: 50%;
+}
+
+.club-pic {
+	margin-top: 40px;
+}
+
+.club-parent {
+	display: flex;
+	text-align: center;
 }
 
 a {
