@@ -76,7 +76,7 @@
 	}
 
 	.club-box:hover {
-		background: rgba(255, 255, 255, 0.8);
+		background: #e2e2e2;
 	}
 
 	.club-name {
@@ -121,7 +121,7 @@
 	}
 
 	.club-box:hover {
-		background: rgba(255, 255, 255, 0.8);;
+		background: #e2e2e2;
 	}
 
 	.club-content {
@@ -143,7 +143,6 @@
 
 
 .clubs {
-	background: #00bbff;
 	margin-top: 5%;
 	padding: 40px;
 	max-width: 70%;
