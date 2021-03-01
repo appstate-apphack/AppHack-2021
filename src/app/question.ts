@@ -34,7 +34,7 @@ export const FAQ: Question[] = [
 	},
 	{
 		question: "I forgot to pre-register, can I still come?",
-		answer: "Yes! You can register at the event but we won't be able to guarantee food for you!"
+		answer: "Yes! You can register at the event!"
 	},
 	{
 		question: "What if I don't finish my project?",
