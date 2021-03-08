@@ -1,10 +1,12 @@
 .about-wrapper {
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
-.about-info {
+
+h1 {
+	font-size: 40px;
 }
 
 .image {
@@ -17,9 +19,6 @@
 .image-wrapper {
 	width: 100%;
 	text-align: center;
-}
-
-.image-flex-wrapper {
 }
 
 @media only screen and (min-width : 320px) and (max-width: 767px) {

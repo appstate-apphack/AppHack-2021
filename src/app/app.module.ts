@@ -12,6 +12,7 @@ import { FaqComponent } from './faq/faq.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
+import { RulesComponent } from './rules/rules.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AboutComponent } from './about/about.component';
     FaqComponent,
     ClubsComponent,
     ScheduleComponent,
-    AboutComponent
+    AboutComponent,
+    RulesComponent,
   ],
   imports: [
     BrowserModule,
