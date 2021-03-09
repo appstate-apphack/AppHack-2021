@@ -47,6 +47,16 @@
     margin-bottom: 50%;
   }
 
+  .title-everything-wrapper {
+    background-image: url(../../assets/mountains.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    overflow: none;
+    height: 90vh;
+    width: 100vw;
+  }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
@@ -88,6 +98,16 @@
 
   .info {
     margin-left: 10%;
+  }
+
+  .title-everything-wrapper {
+    background-image: url(../../assets/mountains.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    overflow: none;
+    height: 90vh;
+    width: 100vw;
   }
 
 }
@@ -132,6 +152,16 @@
     margin-left: 0%;
   }
 
+  .title-everything-wrapper {
+    background-image: url(../../assets/mountains.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    overflow: none;
+    height: 90vh;
+    width: 100vw;
+  }
+
 }
 
 .hack {
@@ -165,12 +195,4 @@ h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.title-everything-wrapper {
-  background-image: url(../../assets/mountains.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-  overflow: none;
-  height: 90vh;
-  width: 100vw;
-}
+
