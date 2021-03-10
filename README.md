@@ -10,6 +10,5 @@ Before you edit. Please go through the Angular tutorial.
 * Run locally by typing in the terminal `ng serve` 
 
 * Once done with editing:
-  - Make sure to change all relative path to have it start with `apphack/${PATH}`
   - In your terminal, run `ng build --base-href="/apphack/" --deploy-url="/apphack/" --prod`
 * `scp` the contents of the `dist` folder into `cs.appstate.edu` server. Make sure to backup the previous contents, remove them, then `scp` 
