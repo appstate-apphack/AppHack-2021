@@ -1,7 +1,7 @@
 <div class="schedule">
 	<h1>Schedule</h1>
 	<div class="schedule-parent">
-		<div class="date-title">
+		<!-- <div class="date-title">
 			<h3>Saturday, April 4th</h3>
 		</div>
 		<div class="schedule-dates" *ngFor="let e of events1">
@@ -15,7 +15,9 @@
 		<div class="schedule-dates" *ngFor="let e of events2">
 			<span class="time"><p>{{e.time}}</p></span>
 			<span class="description"><p>{{e.description}}<p></span>
-		</div>
+		</div> -->
+		<pdf-viewer [src]="pdfSrc" [render-text]="true" [original-size]="false">
+        </pdf-viewer>
 	</div>
 </div>
 

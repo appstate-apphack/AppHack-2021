@@ -11,6 +11,8 @@ export class ScheduleComponent implements OnInit {
   events1 = SCHEDULE1;
   events2 = SCHEDULE2;
 
+  pdfSrc="assets/2021schedule.pdf"
+
   constructor() { }
 
   ngOnInit(): void {

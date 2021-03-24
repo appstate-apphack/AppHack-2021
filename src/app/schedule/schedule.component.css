@@ -11,12 +11,6 @@
 		display: block;
 	}
 
-	.schedule-parent {
-		margin: auto;
-		display: flex;
-		flex-direction: column;
-	}
-
 	.schedule-dates {
 		display: flex;
 		flex-direction: row;
@@ -49,12 +43,6 @@
 		display: block;
 	}
 
-	.schedule-parent {
-		margin: auto;
-		display: flex;
-		flex-direction: column;
-	}
-
 	.schedule-dates {
 		display: flex;
 		flex-direction: row;
@@ -76,19 +64,13 @@
 	.schedule {
 		background: #00bbff;
 		padding: 40px;
-		width: 80%;
+		width: 50%;
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 	    font-family: 'Montserrat', sans-serif;
 		border-radius: 20px;
 		display: block;
-	}
-
-	.schedule-parent {
-		margin: auto;
-		display: flex;
-		flex-direction: column;
 	}
 
 	.schedule-dates {
@@ -109,6 +91,12 @@
 	}
 }
 
+.schedule-parent {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
 h1 {
 	font-size: 40px;
 }
@@ -121,4 +109,7 @@ h1 {
 h3 {
 	font-size: 30px;
 	/*color: #ffffff;*/
+}
+pdf-viewer {
+	display: block;
 }
