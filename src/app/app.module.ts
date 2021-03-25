@@ -14,6 +14,7 @@ import { ClubsComponent } from './clubs/clubs.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
 import { RulesComponent } from './rules/rules.component';
+import { PrizesComponent } from './prizes/prizes.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { RulesComponent } from './rules/rules.component';
     ScheduleComponent,
     AboutComponent,
     RulesComponent,
+    PrizesComponent,
   ],
   imports: [
     BrowserModule,

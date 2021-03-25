@@ -38,6 +38,6 @@ export const FAQ: Question[] = [
 	},
 	{
 		question: "What if I don't finish my project?",
-		answer: "We encourage you to submit anyways because it does not disqualify you from prizes. It is also a significant accomplishment to work on a project for 24 hours! We love to hear about what your idea was."
+		answer: "We encourage you to submit anyways because it does not disqualify you from prizes. It is also a significant accomplishment to work on a project for 48 hours! We love to hear about what your idea was."
 	},
 ]
